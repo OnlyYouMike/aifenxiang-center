@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="customs:war">
+    <output-path>$PROJECT_DIR$/../customs/target</output-path>
+    <root id="archive" name="customs-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="customs:war exploded" />
+    </root>
+  </artifact>
+</component>
