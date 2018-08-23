@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="entrance-hall:war">
-    <output-path>$PROJECT_DIR$/../entrance-hall/target</output-path>
-    <root id="archive" name="entrance-hall-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="entrance-hall:war exploded" />
-    </root>
-  </artifact>
-</component>
