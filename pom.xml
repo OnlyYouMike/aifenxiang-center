@@ -45,7 +45,7 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>1.14.6</version>
+                <version>1.16.20</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
@@ -130,6 +130,30 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-redis</artifactId>
                 <version>2.0.4.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.hswebframework.web</groupId>
+                <artifactId>hsweb-access-logging-aop</artifactId>
+                <version>3.0.9-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.hswebframework.web</groupId>
+                <artifactId>hsweb-access-logging-api</artifactId>
+                <version>3.0.9-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>1.2.3</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.7.25</version>
             </dependency>
 
         </dependencies>
